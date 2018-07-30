@@ -56,6 +56,10 @@ const makeDom = (weatherData) => {
  title4.appendChild(titleName4);
  document.body.appendChild(title4);
  
+ const div1 = document.createElement("div1");
+ const divName1= document.createTextNode(`Hi ${Fhigh} ${String.fromCharCode(176)}F`);
+ div1.appendChild(div1);
+ document.body.appendChild(div1)
  
 }
 
